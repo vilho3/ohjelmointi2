@@ -7,17 +7,21 @@ p {
 
 h1 {
     color: white;
+    padding: 2rem;
 
 }
 
 h2 {
     color: white;
+    padding: 2rem;
 
 }
 
 main {
-
+    display: flex;
+    gap: 125px;
     color: white;
+
 }
 
 body {
@@ -50,6 +54,7 @@ body {
 }
 
 article {
+    padding: 2rem;
     display: flex;
     gap: 200px;
 }
@@ -61,4 +66,13 @@ aside {
 }
 body {
     font-family: "Audiowide", sans-serif;
+}
+
+section{
+    float: left;
+    padding: 2rem;
+}
+
+section2{
+    padding: 2rem;
 }
