@@ -7,58 +7,63 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 </head>
 <body>
-<div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'Etusivu')" id="defaultOpen">Etusivu</button>
-    <button class="tablinks" onclick="openTab(event, 'Kauppa')">Kauppa</button>
-    <button class="tablinks" onclick="openTab(event, 'Tietoa meistä')">Tietoa meistä</button>
+<div class="container">
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Etusivu')" id="defaultOpen">Etusivu</button>
+        <button class="tablinks" onclick="openTab(event, 'Kauppa')">Kauppa</button>
+        <button class="tablinks" onclick="openTab(event, 'Tietoa meistä')">Tietoa meistä</button>
+    </div>
+    <div id="Etusivu" class="tabcontent">
+        <h1>Puukauppa</h1>
+
+
+            <section class="card">
+                <img src="puu.jpeg" alt="puu" style="width:400px;height:350px;">
+            </section>
+                <p>Klapit ovat pilkottuja polttopuita, jota käytetään monissa tulisijoissa lämmitykseen.</p>
+                <p>Yleensä klapit ovat koivua, kuusta tai sekapuuta.</p>
+                <p>Koivuklapit ovat todella suosittuja niiden energiapitoisuuden takia. </p>
+                <p>Hyvin kuivatut klapit syttyvät helposti ja tuottavat hyvän lämmön.</p>
+                <p>Sitte vielä jotain liirumalaarimua jonku verran pitäs laittaa.</p>
+
+    </div>
+    <div id="Kauppa" class="tabcontent">
+        <h2>Klapit</h2>
+        <h4>Meillä on myynnissä koivuklapia ja sekaklapia</h4>
+
+        <article>
+            <img src="koivuklapi.jpg" alt="koivuklapi" style="width:300px;height:250px;">
+            <img src="sekaklapi.jpg" alt="sekaklapi" style="width:300px;height:250px;">
+        </article>
+        <main>
+            <p>Koivuklapia saa hintaan 100€/heittomotti</p>
+            <p>Sekaklapia saa hintaan 50€/heittomotti</p>
+        </main>
+
+
+    </div>
+
+    <div id="Tietoa meistä" class="tabcontent">
+        <h3>Tietoameistä</h3>
+
+
+        <section2>
+            <img src="metsuri.jpg" alt="metsuri" style="width:1000px;height:450px;">
+        </section2>
+        <h4>Kaikki meidän puut ovat eettisesti hankittu ammattilaisten toimesta.</h4>
+        <aside>
+            <p>Yhteystiedot:</p>
+            <p>Suuremetsäntie 15, 007700, Helsinki</p>
+            <p>+358 040 1000000</p>
+            <p>puukauppa@gmail.com</p>
+
+        </aside>
+
+
+    </div>
+    <script
+            src="script.js">
+    </script>
 </div>
-<div id="Etusivu" class="tabcontent">
-    <h1>Puukauppa</h1>
-
-
-        <section class="card">
-            <img src="puu.jpeg" alt="puu" style="width:400px;height:350px;">
-        </section>
-        <p>tulee vähä tietoa puista vaikka on monenlaisia eripuita, puita</p>
-            <p>tulee vähä tietoa puista vaikka on monenlaisia eripuita</p>
-            <p>tulee vähä tietoa puista vaikka on monenlaisia eripuita</p>
-            <p>tulee vähä tietoa puista vaikka on monenlaisia eripuita</p>
-
-</div>
-<div id="Kauppa" class="tabcontent">
-    <h2>Klapit</h2>
-    <h2>Meillä on myynnissä koivuklapia ja sekaklapia</h2>
-
-    <article>
-        <img src="koivuklapi.jpg" alt="koivuklapi" style="width:300px;height:250px;">
-        <img src="sekaklapi.jpg" alt="sekaklapi" style="width:300px;height:250px;">
-    </article>
-    <main>
-        <p>Koivuklapia saa hintaan 100€/heittomotti</p>
-        <p>Sekaklapia saa hintaan 50€/heittomotti</p>
-    </main>
-
-
-</div>
-
-<div id="Tietoa meistä" class="tabcontent">
-    <h2>Tietoameistä</h2>
-    <section2>
-        <img src="metsuri.jpg" alt="metsuri" style="width:1000px;height:450px;">
-    </section2>
-    <h3>Kaikki meidän puut ovat eettisesti hankittu ammattilaisten toimesta.</h3>
-    <aside>
-        <p>Yhteystiedot:</p>
-        <p>Suuremetsäntie 15, 007700, Helsinki</p>
-        <p>+358 040 1000000</p>
-        <p>puukauppa@gmail.com</p>
-
-    </aside>
-
-
-</div>
-<script
-        src="script.js">
-</script>
 </body>
 </html>
