@@ -103,9 +103,9 @@ section  img{
     display: inline-block;
     float: left;
 }
-h4{
-    color: white;
+main {
     margin: 2rem;
+    padding: 2rem;
 }
 
 a {
