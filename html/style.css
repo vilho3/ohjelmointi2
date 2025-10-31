@@ -17,30 +17,13 @@ p {
 
 h1 {
     color: white;
-    padding: 1rem;
-    border: 1px;
-    background-color: dimgrey;
-    width: 200px;
     margin: 2rem;
 
 }
 
 h2 {
     color: white;
-    padding: 1rem;
-    border: 1px;
-    background-color: dimgrey;
-    width: 75px;
     margin: 2rem;
-}
-h3 {
-    color: white;
-    padding: 1rem;
-    border: 1px;
-    background-color: dimgrey;
-    width: 130px;
-    margin: 2rem;
-    white-space: nowrap;
 }
 
 
@@ -90,8 +73,9 @@ article {
 
 article img{
     border: 2px ;
-    background-color: dimgrey;
-    padding: 1rem;
+    background-color: black;
+    /*background-image: linear-gradient(to top,darkolivegreen, saddlebrown);*/
+    padding: 5px;
 }
 
 aside {
@@ -105,25 +89,22 @@ body {
     font-family: "Audiowide", sans-serif;
 }
 
-section{
-    float: left;
-    padding: 2rem;
-}
+section  img{
 
-section2{
-    padding: 2rem;
-}
-
-.card, section, section2{
-    background-color: dimgrey;
+    background-color: black;
     border: 2px;
+    padding: 4px;
+}
+
+.card, section{
+
     margin: 2rem;
     display: inline-block;
+    float: left;
 }
-h3, h4{
+h4{
     color: white;
     margin: 2rem;
-
 }
 
 a {
