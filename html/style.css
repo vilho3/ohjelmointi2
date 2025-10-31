@@ -19,8 +19,9 @@ h2 {
 
 main {
     display: flex;
-    gap: 125px;
+    gap: 155px;
     color: white;
+    margin: 2rem;
 
 }
 
@@ -54,14 +55,24 @@ body {
 }
 
 article {
-    padding: 2rem;
     display: flex;
+    padding: 2rem;
     gap: 200px;
+
+
 }
+
+article img{
+    border: 2px ;
+    background-color: dimgrey;
+    padding: 1rem;
+}
+
 aside {
     width: 220px;
     border: 5px solid white;
     padding: 50px;
+    margin: 2rem;
 
 }
 body {
@@ -75,4 +86,16 @@ section{
 
 section2{
     padding: 2rem;
+}
+
+.card, section, section2{
+    background-color: dimgrey;
+    border: 2px;
+    margin: 2rem;
+    display: inline-block;
+}
+.tabcontent, h3{
+    color: white;
+    margin: 2rem;
+
 }
