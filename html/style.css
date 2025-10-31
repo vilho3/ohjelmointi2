@@ -2,6 +2,12 @@
     width: 80%;
     margin: auto;
 }
+
+@media screen and(min-width: 900px){
+    .container{
+        width: 80%;
+    }
+}
 html{
     height:100%;
 }
@@ -34,6 +40,7 @@ h3 {
     background-color: dimgrey;
     width: 130px;
     margin: 2rem;
+    white-space: nowrap;
 }
 
 
@@ -56,23 +63,22 @@ body {
   background-color: darkolivegreen;
 }
 
-.tab button {
+.tab a {
   background-color: white;
   border: none;
   cursor: pointer;
-  padding: 20px 45px;
+  padding: 50px 30px;
+  font-size: 1.5rem;
+
 }
-.tab button:hover {
+.tab a:hover {
   background-image: linear-gradient(to bottom, darkolivegreen, saddlebrown);
 }
 
-.tab button.active {
+.tab a.active {
   background-color: saddlebrown;
 }
-.tabcontent{
-    display: none;
 
-}
 
 article {
     display: flex;
@@ -114,8 +120,13 @@ section2{
     margin: 2rem;
     display: inline-block;
 }
-.tabcontent, h3, h4{
+h3, h4{
     color: white;
     margin: 2rem;
 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
