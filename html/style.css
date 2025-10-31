@@ -79,6 +79,7 @@ article img{
 }
 
 .aside {
+    background-color: transparent;
     width: 220px;
     border: 5px solid white;
     padding: 50px;
