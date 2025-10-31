@@ -1,0 +1,110 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+html{
+    height:100%;
+}
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    margin: 2rem;
+
+}
+
+h2 {
+    color: white;
+    margin: 2rem;
+}
+
+
+main {
+    display: flex;
+    gap: 155px;
+    color: white;
+    margin: 2rem;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, darkolivegreen, saddlebrown);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: darkolivegreen;
+}
+
+.tab a {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 50px 30px;
+  font-size: 1.5rem;
+
+}
+.tab a:hover {
+  background-image: linear-gradient(to bottom, darkolivegreen, saddlebrown);
+}
+
+.tab a.active {
+  background-color: darkseagreen;
+}
+
+
+article {
+    display: flex;
+    padding: 2rem;
+    gap: 200px;
+
+
+}
+
+article img{
+    border: 2px ;
+    background-color: black;
+    /*background-image: linear-gradient(to top,darkolivegreen, saddlebrown);*/
+    padding: 5px;
+}
+
+.aside {
+    background-color: transparent;
+    width: 220px;
+    border: 5px solid white;
+    padding: 50px;
+    margin: 2rem;
+
+}
+body {
+    font-family: "Audiowide", sans-serif;
+}
+
+section  img{
+
+    background-color: black;
+    border: 2px;
+    padding: 4px;
+}
+
+.card, section{
+
+    margin: 2rem;
+    display: inline-block;
+    float: left;
+}
+main {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
