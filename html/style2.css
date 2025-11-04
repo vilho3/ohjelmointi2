@@ -41,6 +41,7 @@ body {
 .tab {
   overflow: hidden;
   background-color: darkolivegreen;
+  width: 50%;
 }
 
 .tab a {
@@ -66,12 +67,12 @@ article {
     gap: 200px;
 
 
+
 }
 
 article img{
     border: 2px ;
     background-color: black;
-    /*background-image: linear-gradient(to top,darkolivegreen, saddlebrown);*/
     padding: 5px;
 }
 
@@ -83,7 +84,10 @@ article img{
     margin: 2rem;
 
 }
-
+img {
+    width: 100%;
+    height: auto;
+}
 
 section  img{
 
@@ -107,3 +111,30 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.kauppa {
+    border: 3px solid white;
+    padding: 5px;
+    text-align: center;
+    width: 350px;
+    background-color: black;
+    display: inline-block;
+    margin: 2rem;
+
+}
+.kauppa img {
+    width: 100%;
+    height: auto;
+
+}
+@media screen and (min-width: 769px) {
+    .container{
+        width: 80%;
+    }
+}
+
