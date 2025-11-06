@@ -26,5 +26,4 @@ def main():
     tulostus(auto)
 
 
-
 main()
