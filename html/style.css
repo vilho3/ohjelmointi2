@@ -1,1 +1,103 @@
-h1,h2,main,p{color:#fff}.tab a:hover,body{background-image:linear-gradient(to bottom,#556b2f,#8b4513)}article,main{display:flex;padding:2rem}article img,section img{background-color:#000;border:2px}.container{width:80%;margin:auto}.aside,h1,h2,main{margin:2rem}html{height:100%}main{gap:155px}body{background-attachment:fixed;background-size:cover;font-family:Audiowide,sans-serif}.tab{overflow:hidden;background-color:#556b2f}.tab a{background-color:#fff;border:none;cursor:pointer;padding:50px 30px;font-size:1.5rem}.tab a.active{background-color:#8fbc8f}article{gap:200px}article img{padding:5px}.aside{background-color:transparent;width:220px;border:5px solid #fff;padding:50px}section img{padding:4px}.card,section{margin:2rem;display:inline-block;float:left}a{text-decoration:none;color:inherit}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+}
+
+html {
+    height: 100%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+section  img{
+
+    background-color: black;
+    border: 2px;
+    padding: 4px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, darkolivegreen, saddlebrown);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+h1, h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 1rem;
+}
+
+.tab a {
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.tab a:hover {
+    background-image: linear-gradient(to bottom, darkolivegreen, saddlebrown);
+}
+
+.tab a.active {
+    background-color: darkgrey;
+}
+article img{
+    border: 2px ;
+    background-color: black;
+    padding: 5px;
+}
+
+.card, .kauppa {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.card img, .kauppa img {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.aside {
+    text-align: center;
+    background-color: transparent;
+    width: 300px;
+    border: 5px solid white;
+    padding: 30px;
+    margin: 2rem auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+    }
+}
