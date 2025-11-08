@@ -14,6 +14,12 @@ section  img{
     border: 2px;
     padding: 4px;
 }
+div  img{
+
+    background-color: black;
+    border: 2px;
+    padding: 4px;
+}
 
 body {
     margin: 0;
